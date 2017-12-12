@@ -8,7 +8,7 @@ public class keyGen {
         Random gen = new Random();
         //Generates New Key
         int key = gen.nextInt(999999999);
-        //Checks of key is grater than X number
+        //Checks if key is grater than X number
         if (key < 300000000) {
             key = 0;
         }
