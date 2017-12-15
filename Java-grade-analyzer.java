@@ -1,8 +1,8 @@
 /*
 Java grade average calculator
 */
-//Imports Array package
-import java.util.ArrayList;
+//Imports All Packages
+import java.util.*;
 
 public class GradeAnalyzer {
   public void GradeAnalyzer() {
