@@ -40,8 +40,11 @@ public class Calculator {
   
   public static void main(String[] args) {
     Calculator myCalculator = new Calculator();
-    System.out.println(myCalculator.add(5, 7));
-    System.out.println(myCalculator.subtract(45, 11));
+    System.out.println(myCalculator.add(5, 7)); //Output = 12
+    System.out.println(myCalculator.subtract(45, 11)); //Output = 34
+    System.out.println(myCalculator.multiply(234231, 901283)); //Output = 655020869
+    System.out.println(myCalculator.divide(18123562, 89)); //Output = 203635
+    System.out.println(myCalculator.modulo(12, 5)); //Output = 2;
     
   }
 }
